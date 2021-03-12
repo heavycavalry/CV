@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #6d6d6d;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  margin: 2em auto;
+  width: 1000px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-shadow: 5px 5px 5px #2c2c2c;
+          box-shadow: 5px 5px 5px #2c2c2c;
+}
+
+.left-section {
+  background-color: #84e7c6;
+  min-height: 100%;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  padding-left: 5rem;
+  font-size: 16px;
+}
+
+.right-section {
+  background-color: #ffffff;
+  min-height: 100%;
+  width: 52%;
+}
+
+.lady-image {
+  width: 20em;
+  height: 20em;
+}
+
+.name {
+  font-size: 22px;
+  border-top: 1px solid white;
+}
+
+#contact-section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact-section div i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #6d6d6d;
+}
+
+#contact-section div p {
+  margin: 0;
+}
+
+.technologies-label {
+  margin: 2em 0;
+}
+
+#technologies-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 1rem 4rem -5rem;
+}
+
+#technologies-section div {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#technologies-section div div img {
+  width: 5em;
+  height: 5em;
+  margin: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

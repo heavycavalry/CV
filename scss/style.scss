@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+$left-color: #84e7c6;
+$right-color: #ffffff;
+$back-color: rgb(109, 109, 109);
+$small-fontsize: 16px;
+$big-fontsize: 22px;
+$font: 'Lato', sans-serif;
+$shadow: 5px 5px 5px rgb(44, 44, 44);
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: $back-color;
+  font-family: $font;
+}
+
+.container {
+  margin: 2em auto;
+  width: 1000px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  box-shadow: $shadow;
+}
+
+.left-section {
+  background-color: $left-color;
+  min-height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding-left: 5rem;
+  font-size: $small-fontsize;
+}
+
+.right-section {
+  background-color: $right-color;
+  min-height: 100%;
+  width: 52%;
+}
+
+.lady-image {
+  width: 20em;
+  height: 20em;
+}
+
+.name {
+  font-size: $big-fontsize;
+  border-top: 1px solid white;
+}
+
+#contact-section {
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    i {
+      font-size: 1.5rem;
+      margin-right: 1rem;
+      color: $back-color;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
+.technologies-label {
+  margin: 2em 0;
+}
+#technologies-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem 4rem -5rem;
+  div {
+      margin: auto;
+    display: flex;
+    div {
+      img {
+        width: 5em;
+        height: 5em;
+        margin: 2rem;
+      }
+    }
+  }
+}
